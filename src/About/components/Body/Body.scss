@@ -1,0 +1,33 @@
+.body-background {
+  background-color: #121212;
+  width: 60%;
+  height: 350px;
+  margin-top: 10vw;
+  margin-bottom: 20vw;
+  margin-right: 5%;
+  margin-left: 5%;
+  border-radius: 0px;
+}
+
+.name {
+  background-color: #121212;
+  margin-top: 2vw;
+  letter-spacing: 3px;
+  font-family: 'LEMONMILK';
+  font-size: x-large;
+  font-weight: bold;
+  text-decoration: none;
+  color: #88FF7D;
+}
+
+.job {
+  background-color: #121212;
+  letter-spacing: 3px;
+  font-family: 'LEMONMILK';
+  font-size: medium;
+  font-weight: bold;
+  text-decoration: none;
+  -webkit-text-stroke: 0.1px;
+  -webkit-text-stroke-color: #88FF7D;
+  color: #000000;
+}

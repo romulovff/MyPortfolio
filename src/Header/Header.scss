@@ -1,0 +1,43 @@
+.background {
+  overflow: hidden;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #121212;
+  border-bottom: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: #88FF7D;
+  height: 50px;
+  width: 100%;
+}
+
+.buttons {
+  width: 600px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.selected {
+  letter-spacing: 3px;
+  font-family: 'LEMONMILK';
+  font-size: large;
+  font-weight: bold;
+  text-decoration: none;
+  color: #88FF7D;
+  animation: 3s ease 0s pulse infinite;
+  background-color: #121212;
+}
+
+.not-selected {
+  letter-spacing: 3px;
+  font-family: 'LEMONMILK';
+  font-size: large;
+  font-weight: bold;
+  text-decoration: none;
+  -webkit-text-stroke: thin;
+  -webkit-text-stroke-color: #88FF7D;
+  color: #000000;
+  background-color: #121212;
+}
